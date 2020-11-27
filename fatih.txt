@@ -1,6 +1,13 @@
+
+Scenario: Search functionality title verifications
+    When User searches "Steve Jobs" in the wiki search page
+    Then User should see "Steve Jobs" in the wiki title
+
+
 merhaba
 
 
 Scenario: Search functionality title verifications
     When User searches "Steve Jobs" in the wiki search page
     Then User should see "Steve Jobs" in the wiki title
+
